@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: flex-end;
+    height: 100vh;
+    /* gap: 400px; */
+}
+.box1{
+    background-color: green;
+    width: 300px;
+    height: 200px;
+}
+.box2{
+    background-color: blue;
+    width: 300px;
+    height: 200px;
+}
+.box3{
+    background-color: red;
+    width: 300px;
+    height: 200px;
+}
