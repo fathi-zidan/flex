@@ -1,0 +1,27 @@
+
+        /* h1{
+            font-size: 9vw;
+        }
+        p{
+            font-size: 5vw;
+        } */
+        @media(min-width:501px) and (max-width: 768px){
+            p{
+                font-size: 12px;
+            }
+}
+    @media(min-width:767px) and (max-width: 1200px){
+            p{
+                font-size: 20px;
+            }
+            
+    
+}
+@media(min-width:1201px) {
+            p{
+                font-size: 30px;
+            }
+            
+    
+}
+   

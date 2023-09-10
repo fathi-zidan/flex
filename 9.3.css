@@ -1,0 +1,14 @@
+.as{
+    border: solid black 2px;
+}
+body{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+@media(max-width: 500px){
+   .as{
+    display: none;
+   }
+}
