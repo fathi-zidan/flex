@@ -1,0 +1,48 @@
+/* Apply basic styles to the element */
+.p1 a {
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.p1 a::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    white-space: nowrap;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+.p2 a {
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.p2 a::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    white-space: nowrap;
+    background-color: yellow;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+
+a:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
